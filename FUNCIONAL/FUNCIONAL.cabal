@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       EJERCICIO1
+      EJERCICIO2
       Lib
   other-modules:
       Paths_FUNCIONAL

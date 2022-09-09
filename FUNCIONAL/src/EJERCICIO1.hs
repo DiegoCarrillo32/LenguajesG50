@@ -3,7 +3,7 @@
 module EJERCICIO1
     (
         
-        ejercicio1,
+        sub_cadenas,
         detectarCadena
     ) where
 
@@ -24,7 +24,7 @@ module EJERCICIO1
 
         
 
-    ejercicio1 prefix word_list = filter(\x -> detectarCadena prefix x 0 0 False) word_list
+    sub_cadenas prefix word_list = filter(\x -> detectarCadena prefix x 0 0 False) word_list
 
     
 
